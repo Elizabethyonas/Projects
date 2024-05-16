@@ -98,7 +98,7 @@ def main():
         ConstBoard(board);
         User1Turn(board);
       else:
-        CostBoard(board);
+        ConstBoard(board);
         User2Turn(board);
   X = analyzeboard(board);
   if (X == 0):
